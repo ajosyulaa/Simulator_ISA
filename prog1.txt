@@ -1,0 +1,6 @@
+LOAD R1, [0]
+ADD R2, R2, R1
+SUB R1, R1, #1
+ADD R2, R2, R1
+CBNZ R1, 3
+STORE [1], R2
